@@ -1,0 +1,9 @@
+.title {
+    color: rebeccapurple;
+    margin-top: 150px;
+    margin-left: 150px;
+
+    &:hover {
+        color: scale-color(rebeccapurple, $lightness: +40%);
+    }
+}
